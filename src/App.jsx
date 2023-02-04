@@ -50,6 +50,6 @@ const NavContainer = styled.nav`
     background-color: gold;
     display: flex;
     align-itemms: center;
-    justify-content: space-between;
+    justify-content: center;
     `
 export default App

@@ -49,12 +49,12 @@ const NewDeparture = ()=> {
         
         return(
             <>
-                    <h3>Authentication</h3>
+                    <h3 id = "title">Authentication</h3>
                     <input type="text" id= "user" placeholder="User" onChange={e=>setUser(e.target.value)}/>
                     <br></br>
                     <input type="text" id= "time" placeholder="Password" onChange={e=>setPassword(e.target.value)}/>
                     <br></br>
-                    <h3>Data Fligth</h3>
+                    <h3 id = "title">Data Fligth</h3>
                     <input type="text" id= "flightNo" placeholder="Flight No." onChange={e=>setNumFlight(e.target.value)}/>
                     <br></br>
                     <input type="text" id= "gate" placeholder="Gate" onChange={e=>setGateFlight(e.target.value)}/>

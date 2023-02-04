@@ -20,6 +20,10 @@ body {
   color: black;
 }
 
+#title{
+  color: black;
+}
+
 #nav{
   padding: .4rem;
   background-color: gold;
